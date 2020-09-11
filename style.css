@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+	}
+
+body{
+	margin: 0;
+	font-family: arial;
+	background-color:rgb(250, 250, 250);
+
+	}
+a{
+	text-decoration: none;
+	color:white;
+	}
+.navbar{
+	padding-top: 35px;
+	position: fixed;
+	width: 100%;
+	}
+.container{
+	padding-right: 10%;
+	padding-left:10%;
+	}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	}
+	/* kartu */
+.card3 {
+	color:black;
+	height:50px; 
+	width:180px;
+	margin:left;
+	font-size: 16px;
+	font-weight: 'muli';
+	border-radius: 8px;
+	padding: 14px 30px;
+	}	
+i{
+	color: white;
+	}
+.tiga{
+		background: #333333;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  }
+		
+.purp{
+	color: rgb(49, 138, 253);
+	}
+.yell{
+	color: #f3f706;
+	}
+.menu{
+	margin-left: auto;
+	}
+.btn{
+	display: inline-block;
+	font-family: 'muli';
+	font-size: 18px;
+	}
+.btn-primary{
+	padding: 14px 30px;
+	background:  rgb(250, 250, 250);
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-right: 10px;
+	color: blue;
+	}
+.btn-secon{
+	padding: 12px 28px;
+	background: transparent;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	color:rgb(252, 252, 252);
+	border: 2px solid rgb(255, 255, 255);
+	}
+.kol-5{
+	padding-left: 10%;
+	width: 41.66%;
+	flex: 0 0 41.66%;
+	}
+hr{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	/* gradasi warna hijau */
+	background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	Height:5px;
+	border: 0;
+	}
+.kol-7{
+	width: 58.33%;
+	flex: 0 0 58.33%;
+	}
+.heading{
+
+	padding-top: 100px;
+	font-family: 'circular std black';
+	font-size:50px;
+	color: #4D1D68;
+	}	
+
+p{
+	font-family: 'Nunito sans';
+	font-size: 24px;
+	color: #9A9A9A;
+	margin: 10;
+	}
+.btn-sign{
+	margin-top: 25px;
+	font-weight: 800;
+	font-size: 18px;
+	font-family: 'Nunito sans';
+	/* background gradasi warna biru */
+	background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 21px 40px;
+	border-radius: 5px;
+	}
+	/* gambar */
+.kol-7{
+	background: url(aaa.png);
+	height: 530px;
+	background-size: cover;
+	background-position: 30px -12px;
+	background-repeat: no-repeat;
+	}
+	/* footer */
+.footer {
+	background: #EEE;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	color: #666;
+	padding: 10px 10px;
+	}
